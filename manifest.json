@@ -4,15 +4,19 @@
 
   "short_name": "Seo Techman",
 
-  "start_url": "https://www.seotechman.com/?m=1",
+  "start_url": "https://www.seotechman.com",
 
   "display": "standalone",
 
   "background_color": "#fff",
 
+  "msapplication-navbutton-color": "#0095d8",
+
+  "apple-mobile-web-app-status-bar-style": "#0095d8",
+
   "theme_color": "#0095d8",
 
-  "description": "Media informasi terbaru seputar seo, tips, dan tempat untuk berbagi tutorial css, html, javascript, blogger blogspot",
+  "description": "Media Informasi Terbaru Seputar Seo, Tips, Info Menarik, Optimasi Website, Dan Tempat Untuk Berbagi Tutorial Css, Html, Javascript, Blogger Blogspot",
 
   "icons": [{
 
@@ -40,7 +44,7 @@
 
   }, {
 
-    "src": "https://gtmetrix.com/reports/www.seotechman.com/mYmM02U5/pagespeed/android-icon-192x192_657dcd22f2460bbd8cb212e5dc64b17b.png",
+    "src": "https://2.bp.blogspot.com/-GP8PaIDSxDk/XKCZ1QXBE_I/AAAAAAAAAaE/JHZ2WdIoPE8rSZktBwCUvvogWKLsRnOuwCLcBGAs/s144/android-icon-192x192.png",
 
     "sizes": "144x144",
 
