@@ -1,0 +1,64 @@
+"performance-budget": {
+  "id": "gudangupdate.com",
+  "title": "gudang update blogs",
+  "description": "The latest information warehouse that provides various kinds of interesting info around blogs, social media, seo, tutorials, and news or other topics",
+  "score": null,
+  "scoreDisplayMode": "informative",
+  "details": {
+    "type": "table",
+    "headings": [
+      {
+        "key": "label",
+        "itemType": "text",
+        "text": "Resource Type"
+      },
+      {
+        "key": "requestCount",
+        "itemType": "numeric",
+        "text": "Requests"
+      },
+      {
+        "key": "size",
+        "itemType": "bytes",
+        "text": "Transfer Size"
+      },
+      {
+        "key": "countOverBudget",
+        "itemType": "text",
+        "text": ""
+      },
+      {
+        "key": "sizeOverBudget",
+        "itemType": "bytes",
+        "text": "Over Budget"
+      }
+    ],
+    "items": [
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 6,
+        "size": 172522
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 2,
+        "size": 446616
+      },
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 22,
+        "size": 755199
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 13,
+        "size": 207011,
+        "countOverBudget": "3 requests"
+      }
+    ]
+  }
+},
