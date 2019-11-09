@@ -7,6 +7,10 @@
       },
       {
         "resourceType": "image",
+        "budget": 300
+      },
+      {
+        "resourceType": "font",
         "budget": 100
       },
       {
