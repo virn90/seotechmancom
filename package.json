@@ -1,0 +1,38 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "Seo Techman",
+  "version": "0.0.1",
+  "description": "Media Informasi Seputar Seo, Tips, Tutorial, Dan Tempat Untuk Berbagi Info-Info Menarik, Serta Berita Terbaru Lainnya",
+  "main": "https://rawcdn.githack.com/virn90/seotechmancom/ee4e8f789eab42d724db0f8af691eea91719eaf6/server.js",
+  "scripts": {
+    "start": "TMP=/app/.tmp webpack && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "firebase": "^5.3.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^4.16.4",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://www.seotechman.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
