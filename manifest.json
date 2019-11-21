@@ -2,7 +2,7 @@
 
   "name": "seotechman.com",
 
-  "short_name": "Seo Techman",
+  "short_name": "Seo,Tips,Tutorial,Blogging - Media Informasi Terbaru - Seo Techman",
 
   "start_url": "https://www.seotechman.com",
 
@@ -68,7 +68,7 @@
 
   }, {
 
-    "src": "https://rawcdn.githack.com/seotechman/root/master/newbackground.jpg",
+    "src": "https://cdn.staticaly.com/gh/Seo90/underman/df866c97/virm.webp",
 
     "sizes": "512x512",
 
