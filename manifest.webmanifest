@@ -1,0 +1,43 @@
+
+{
+  "name": "seotechman.com",
+  "short_name": "seotechman.com",
+  "start_url": "https://www.seotechman.com",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6f7",
+  "theme_color": "#0d3c82",
+  "description": "Media Informasi Terbaru Seputar Seo, Tips, Tutorial, Blogging, Dan Tempat Untuk Berbagi Info-Info Menarik, Serta Berita Terbaru Lainnya",
+  "icons": [
+    {
+"src": "https://cdn.statically.io/gh/virn90/seotechmancom/d3817860/seotechman.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.statically.io/gh/virn90/seotechmancom/d3817860/seotechman.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.statically.io/gh/virn90/seotechmancom/d3817860/seotechman.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.statically.io/gh/virn90/seotechmancom/d3817860/seotechman.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.statically.io/gh/virn90/seotechmancom/d3817860/seotechman.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+      "src": "https://cdn.statically.io/gh/virn90/seotechmancom/d3817860/seotechman.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+        "src": "https://cdn.statically.io/gh/virn90/seotechmancom/d3817860/seotechman.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+  ]
+}
