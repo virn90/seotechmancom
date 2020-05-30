@@ -2,7 +2,7 @@
 {
   "name": "seotechman.com",
   "short_name": "Seotechman",
-  "start_url": "https://www.seotechman.com/?=m1",
+  "start_url": "https://www.seotechman.com/?source=pwa",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f5f6f7",
