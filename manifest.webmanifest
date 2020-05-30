@@ -2,7 +2,7 @@
 {
   "name": "seotechman.com",
   "short_name": "seotechman",
-  "start_url": "https://www.seotechman.com",
+  "start_url": "https://www.seotechman.com/?m=1",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f5f6f7",
