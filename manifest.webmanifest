@@ -1,8 +1,8 @@
 
 {
   "name": "seotechman.com",
-  "short_name": "seotechman.com",
-  "start_url": "https://www.seotechman.com",
+  "short_name": "Seotechman",
+  "start_url": "https://www.seotechman.com/?=m1",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f5f6f7",
