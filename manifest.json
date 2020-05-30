@@ -1,8 +1,8 @@
 
 {
   "name": "seotechman.com",
-  "short_name": "Seotechman",
-  "start_url": "https://www.seotechman.com/?source=pwa",
+  "short_name": "seotechman",
+  "start_url": "https://www.seotechman.com",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f5f6f7",
@@ -33,6 +33,10 @@
       "src": "https://4.bp.blogspot.com/-ElGIRyF_fug/XodqpOeMHkI/AAAAAAAAChI/ONj9OAXYsPotSTPXFp6CwpzbH6y452skACLcBGAsYHQ/s192/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
+    }, {
+    "src": "https://rawcdn.githack.com/virn90/seotechmancom/3a3b6d5afc72a0e979d51db6603c95fb2fe18165/newlogoin.webp",
+    "sizes": "512x512",
+    "type": "image/webp"
     }
   ]
 }
