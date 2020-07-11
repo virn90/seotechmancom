@@ -1,0 +1,39 @@
+
+{
+    "name": "Seotechman",
+    "short_name": "Seotechman: Media Informasi Terbaru dan Terkini!",
+    "start_url": "https://www.seotechman.com",
+    "display": "standalone",
+    "prefer_related_applications": true,
+    "orientation": "portrait",
+    "background_color": "#f5f6f7",
+    "theme_color": "#0d3c82",
+    "description": "Digital Marketing, Seo, Tips, Tutorial, Blogging, Dan Tempat Untuk Berbagi Info-Info Menarik, Serta Berita Terbaru Lainnya",
+    "icons": [
+        {
+            "src": "https://cdn.statically.io/img/4.bp.blogspot.com/-ElGIRyF_fug/XodqpOeMHkI/AAAAAAAAChI/ONj9OAXYsPotSTPXFp6CwpzbH6y452skACLcBGAsYHQ/s192/android-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cdn.statically.io/gh/virn90/seotechmancom/6ad971e7/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "url": "https://www.seotechman.com",
+    "lang": "English",
+    "screenshots": [
+        {
+            "src": "[Embedded]",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "[Embedded]",
+            "sizes": "750x1334",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/"
+}
