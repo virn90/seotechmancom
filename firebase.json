@@ -2,7 +2,7 @@
   "hosting": {
     "site": "seotehman",
     "public": "public",
-  }
   "appAssociation": "AUTO",
+  }
 "rewrites": [ { "source": "/**", "dynamicLinks": true } ]
 }
