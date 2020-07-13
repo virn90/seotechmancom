@@ -16,6 +16,12 @@
             "type": "image/png"
         },
         {
+            "src": "https://cdn.statically.io/gh/virn90/seotechmancom/914271d9/maskable_icon.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "maskable"
+       },
+       {
             "src": "https://cdn.statically.io/gh/virn90/seotechmancom/6ad971e7/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
