@@ -1,7 +1,7 @@
 ---
 ---
 self.addEventListener('install', function(e) {
-  e.waitUntil(caches.open('blog-{{ site.github.build_revision }}').then(function(cache) {
+  e.waitUntil(caches.open('seotechman.com-{{ site.github.build_revision }}').then(function(cache) {
     return cache.addAll([
       {% for page in site.pages %}
       '{{ page.url | remove: '.html' }}',
