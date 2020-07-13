@@ -2,7 +2,7 @@
 {
     "name": "Seotechman",
     "short_name": "Seotechman: Media Informasi Terbaru dan Terkini!",
-    "start_url": "https://www.seotechman.com/?m=1",
+    "start_url": "/?source=pwa",
     "display": "standalone",
     "prefer_related_applications": true,
     "orientation": "portrait",
