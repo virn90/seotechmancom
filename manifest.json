@@ -2,7 +2,6 @@
 {
     "name": "Seotechman",
     "short_name": "Seotechman: Media Informasi Terbaru dan Terkini!",
-    "scope": "/",
     "display": "standalone",
     "prefer_related_applications": true,
     "orientation": "portrait",
@@ -41,4 +40,5 @@
             "type": "image/png"
         }
     ],
+        "scope": "/",
 }
