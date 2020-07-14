@@ -2,7 +2,6 @@
 {
     "name": "Seotechman",
     "short_name": "Seotechman: Media Informasi Terbaru dan Terkini!",
-    "start_url": "https://github.com/virn90/seotechmancom/edit/master/manifest.json/?source=pwa",
     "display": "standalone",
     "prefer_related_applications": true,
     "orientation": "portrait",
