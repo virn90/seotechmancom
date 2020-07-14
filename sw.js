@@ -3,6 +3,7 @@ const precacheName = 'precache-v' + precacheVersion;
 const precacheFiles = [
   "https://cdn.staticaly.com/gh/Seo90/underman/df866c97/virm.png",
   "https://cdn.staticaly.com/gh/Seo90/underman/df866c97/virm.webp",
+  "https://www.seotechman.com",
   "/offline/"
 ];
 
@@ -14,8 +15,8 @@ self.addEventListener('install', (e) => {
     caches.open(precacheName).then((cache) => {
       console.log('[ServiceWorker] Precaching files');
       return cache.addAll(precacheFiles);
-    }) // end caches.open()
-  ); // end e.waitUntil
+    })
+  );
 });
 
 self.addEventListener('activate', (e) => {
@@ -31,8 +32,8 @@ self.addEventListener('activate', (e) => {
         }
 
       }));
-    }) // end caches.keys()
-  ); // end e.waitUntil
+    })
+  );
 });
 
 self.addEventListener('fetch', (e) => {
@@ -54,11 +55,11 @@ self.addEventListener('fetch', (e) => {
         return fetch(e.request)
           .then((fetchResponse) => fetchResponse)
           .catch((err) => {
-            // If offline
+            
             const isHTMLPage = e.request.method === "GET" && e.request.headers.get("accept").includes("text/html");
             if (isHTMLPage) return caches.match("/offline/");
           });
 
-    }) // end caches.match(e.request)
-  ); // end e.respondWith
+    })
+  );
 });
