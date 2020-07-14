@@ -1,8 +1,8 @@
 
 {
     "name": "Seotechman",
-    "short_name": "Seotechman: Media Informasi Terbaru dan Terkini!",
-    "start_url": "https://medium.com/",
+    "short_name": "Seotechman",
+    "start_url": "https://www.seotechman.com/?m=1",
     "display": "standalone",
     "prefer_related_applications": true,
     "orientation": "portrait",
@@ -27,7 +27,7 @@
             "type": "image/png"
         }
     ],
-    "url": "https://medium.com",
+    "url": "https://www.seotechman.com/?m=1",
     "lang": "English",
     "screenshots": [
         {
