@@ -1,9 +1,9 @@
 const precacheVersion = 2;
 const precacheName = 'precache-v' + precacheVersion;
 const precacheFiles = [
-  "https://cdn.staticaly.com/gh/Seo90/underman/df866c97/virm.png",
+  "https://cdn.statically.io/favicons/www.seotechman.com?cache=31536000",
   "https://cdn.staticaly.com/gh/Seo90/underman/df866c97/virm.webp",
-  "https://www.seotechman.com",
+  "https://cdn.statically.io/gh/virn90/seotechmancom/6ad971e7/android-chrome-512x512.png",
   "/offline/"
 ];
 
