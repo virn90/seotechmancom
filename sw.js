@@ -1,20 +1,66 @@
 ---
 ---
-self.addEventListener('install', function(e) {
-  e.waitUntil(caches.open('seotechman.com-{{ site.github.build_revision }}').then(function(cache) {
-    return cache.addAll([
-      {% for page in site.pages %}
-      '{{ page.url | remove: '.html' }}',
-      {% endfor %}
-      {% for post in site.posts %}
-      '{{ post.url | remove: '.html' }}',
-      {% endfor %}  
-    ]);
-  }));
+const precacheVersion = 2;
+const precacheName = 'precache-v' + precacheVersion;
+const precacheFiles = [
+  "https://cdn.staticaly.com/gh/Seo90/underman/df866c97/virm.png",
+  "https://cdn.staticaly.com/gh/Seo90/underman/df866c97/virm.webp",
+  "/offline/"
+];
+
+self.addEventListener('install', (e) => {
+  console.log('[ServiceWorker] Installed');
+  self.skipWaiting();
+
+  e.waitUntil(
+    caches.open(precacheName).then((cache) => {
+      console.log('[ServiceWorker] Precaching files');
+      return cache.addAll(precacheFiles);
+    }) // end caches.open()
+  ); // end e.waitUntil
 });
 
-self.addEventListener('fetch', function(e) {
-  e.respondWith(caches.match(e.request).then(function(response) { 
-    return response;
-  }));
+self.addEventListener('activate', (e) => {
+  console.log('[ServiceWorker] Activated');
+
+  e.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(cacheNames.map((thisCacheName) => {
+
+        if (thisCacheName.includes("precache") && thisCacheName !== precacheName) {
+          console.log('[ServiceWorker] Removing cached files from old cache - ', thisCacheName);
+          return caches.delete(thisCacheName);
+        }
+
+      }));
+    }) // end caches.keys()
+  ); // end e.waitUntil
+});
+
+self.addEventListener('fetch', (e) => {
+
+  const requestURL = new URL(e.request.url);
+  if (!e.request.referrer.includes(requestURL.hostname)) {
+    return e.respondWith(fetch(e.request));
+  }
+
+  e.respondWith(
+    caches.match(e.request)
+      .then((response) => {
+
+        if (response) {
+          console.log("[ServiceWorker] Found in cache", e.request.url);
+          return response;
+        }
+
+        return fetch(e.request)
+          .then((fetchResponse) => fetchResponse)
+          .catch((err) => {
+            // If offline
+            const isHTMLPage = e.request.method === "GET" && e.request.headers.get("accept").includes("text/html");
+            if (isHTMLPage) return caches.match("/offline/");
+          });
+
+    }) // end caches.match(e.request)
+  ); // end e.respondWith
 });
