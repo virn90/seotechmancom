@@ -16,6 +16,7 @@
         },
         {
             "src": "https://cdn.statically.io/gh/virn90/seotechmancom/766499e1/maskable_icon.png",
+            "sizes": "1500x1500",
             "type": "image/png",
             "purpose": "maskable"
        },
