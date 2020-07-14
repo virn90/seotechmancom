@@ -1,5 +1,3 @@
----
----
 const precacheVersion = 2;
 const precacheName = 'precache-v' + precacheVersion;
 const precacheFiles = [
