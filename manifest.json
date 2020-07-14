@@ -1,7 +1,7 @@
 {
     "name": "Seotechman",
     "short_name": "Seotechman",
-    "start_url": "/index.html",
+    "start_url": "https://seotechman.com/?m=1",
     "display": "standalone",
     "prefer_related_applications": true,
     "orientation": "portrait",
@@ -19,26 +19,15 @@
             "sizes": "1500x1500",
             "type": "image/png",
             "purpose": "maskable"
-       },
-       {
+        },
+        {
             "src": "https://cdn.statically.io/gh/virn90/seotechmancom/6ad971e7/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "url": "https://www.seotechman.com/?m=1",
+    "url": "https://seotechman.com",
     "lang": "English",
-    "screenshots": [
-        {
-            "src": "[Embedded]",
-            "sizes": "1280x800",
-            "type": "image/png"
-        },
-        {
-            "src": "[Embedded]",
-            "sizes": "750x1334",
-            "type": "image/png"
-        }
-        ],
-    "scope": "/"
+    "screenshots": [],
+    "scope": "https://seotechman.com/?m=1"
 }
