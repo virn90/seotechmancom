@@ -1,6 +1,7 @@
 {
-    "name": "Seotechman",
+    "name": "Seotechman.com",
     "short_name": "Seotechman",
+    "start_url": "https://www.seotechman.com/",
     "display": "standalone",
     "prefer_related_applications": true,
     "orientation": "portrait",
