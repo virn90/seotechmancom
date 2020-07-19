@@ -1,12 +1,6 @@
 {
     "name": "Seotechman.com",
-    "short_name": "Seotechman",
-    "start_url": "https://www.seotechman.com/",
-    "display": "standalone",
-    "prefer_related_applications": true,
-    "orientation": "portrait",
-    "background_color": "#f5f6f7",
-    "theme_color": "#0d3c82",
+    "short_name": "Seotechman.com",
     "description": "Digital Marketing, Seo, Tips, Tutorial, Blogging, Dan Tempat Untuk Berbagi Info-Info Menarik, Serta Berita Terbaru Lainnya",
     "icons": [
         {
@@ -25,5 +19,13 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "start_url": "https://www.seotechman.com/?utm_source=webapps",
+    "scope": "https://www.seotechman.com/",
+    "gcm_sender_id": "725867611333",
+    "display": "standalone",
+    "prefer_related_applications": true,
+    "orientation": "portrait",
+    "background_color": "#f5f6f7",
+    "theme_color": "#0d3c82"
 }
