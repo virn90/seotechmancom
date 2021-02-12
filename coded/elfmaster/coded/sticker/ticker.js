@@ -34,7 +34,7 @@ function recent_breaking_start(json){
 }
 function recent_breaking_text(){
     var src = feed_url+"?alt=json-in-script&callback=recent_breaking_start&max-results="+latest_post;
-    var s = "<script async src='"+src+"'></script>";
+    var s = "<script src='"+src+"'></script>";
     document.write(s);
 }
 function recent_breaking_style(){
